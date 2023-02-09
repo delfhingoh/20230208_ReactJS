@@ -5,7 +5,10 @@ import "./index.css";
 const TestComponent = () => 
 {
   return (
-    <h1>Test</h1>
+    <div className="container">
+      <h1>Test</h1>
+      <button className="btn">Button</button>
+    </div>
   );
 }
 
